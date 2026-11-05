@@ -1,0 +1,47 @@
+{
+  "name": "gutlog",
+  "version": "0.1.0",
+  "description": "Gutlog by Meter: the food and gut database your AI assistant writes to. Log meals from a photo or a sentence with calories, macros, nutrients and ingredients (each with a confidence you can fix), scan barcodes, read your day, and check plans, from the conversation, the CLI or CI.",
+  "author": {
+    "name": "Meter",
+    "email": "jonathan@getgutlog.com",
+    "url": "https://meterapp.co"
+  },
+  "homepage": "https://getgutlog.com/docs?ref=plugin",
+  "repository": "https://github.com/MeterApp/gutlog-plugins",
+  "license": "MIT",
+  "keywords": [
+    "food-diary",
+    "nutrition",
+    "calorie-tracker",
+    "barcode",
+    "ibs",
+    "low-fodmap",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Gutlog",
+    "shortDescription": "Log meals and read your food diary from your agent",
+    "longDescription": "Log what you eat from a photo or a sentence, with calories, macros, nutrients and ingredients that each carry a confidence you can fix in one sentence. Scan barcodes, read your day, and see your plan and usage, from chat, the CLI or CI.",
+    "developerName": "Meter",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://getgutlog.com",
+    "defaultPrompt": [
+      "Log my breakfast: two scrambled eggs and a slice of sourdough toast.",
+      "What have I eaten today in Gutlog?",
+      "What does Gutlog Plus include?"
+    ],
+    "brandColor": "#16A34A",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.svg",
+    "supportURL": "https://getgutlog.com/docs?ref=plugin",
+    "privacyPolicyURL": "https://getgutlog.com/privacy?ref=plugin",
+    "termsOfServiceURL": "https://getgutlog.com/terms?ref=plugin"
+  }
+}

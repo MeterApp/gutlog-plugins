@@ -1,0 +1,13 @@
+interface:
+  display_name: "Gutlog billing"
+  short_description: "Plans, daily analyses and upgrade links"
+  default_prompt: "Use $gutlog-billing to show what our Gutlog plan includes and how many photo analyses I have left today."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "gutlog"
+      description: "Gutlog hosted MCP server"
+      transport: "streamable_http"
+      url: "https://getgutlog.com/api/mcp"
+policy:
+  allow_implicit_invocation: true

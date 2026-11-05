@@ -1,0 +1,13 @@
+interface:
+  display_name: "Gutlog Pantry"
+  short_description: "Track what's in your fridge, freezer and cupboards"
+  default_prompt: "Use $pantry to add what's in this fridge photo and tell me what expires first."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "gutlog"
+      description: "Gutlog hosted MCP server"
+      transport: "streamable_http"
+      url: "https://getgutlog.com/api/mcp"
+policy:
+  allow_implicit_invocation: true

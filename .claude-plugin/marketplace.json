@@ -1,0 +1,18 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "gutlog",
+  "owner": {
+    "name": "Meter",
+    "email": "jonathan@getgutlog.com",
+    "url": "https://meterapp.co"
+  },
+  "description": "Gutlog by Meter: the food and gut database your AI assistant writes to.",
+  "plugins": [
+    {
+      "name": "gutlog",
+      "source": "./",
+      "description": "Three skills plus the hosted Gutlog MCP servers: log meals and barcodes, read your day, connect the CLI, MCP or an API key, and read pricing and usage.",
+      "category": "productivity"
+    }
+  ]
+}

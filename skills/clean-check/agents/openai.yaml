@@ -1,0 +1,13 @@
+interface:
+  display_name: "Gutlog: clean check"
+  short_description: "Clean-ingredient verdicts with evidence, organic advice and swaps"
+  default_prompt: "Use $clean-check on this granola bar label: is it clean, and is there a cleaner swap?"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "gutlog"
+      description: "Gutlog hosted MCP server"
+      transport: "streamable_http"
+      url: "https://getgutlog.com/api/mcp"
+policy:
+  allow_implicit_invocation: true

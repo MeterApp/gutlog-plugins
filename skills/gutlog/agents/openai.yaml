@@ -1,0 +1,13 @@
+interface:
+  display_name: "Gutlog"
+  short_description: "Log meals and read your food diary"
+  default_prompt: "Use $gutlog to log my breakfast: two scrambled eggs and a slice of sourdough toast."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "gutlog"
+      description: "Gutlog hosted MCP server"
+      transport: "streamable_http"
+      url: "https://getgutlog.com/api/mcp"
+policy:
+  allow_implicit_invocation: true

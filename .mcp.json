@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "gutlog": {
+      "type": "http",
+      "url": "https://getgutlog.com/api/mcp",
+      "headers": {
+        "X-Gutlog-Integration": "plugin"
+      }
+    },
+    "gutlog-catalog": {
+      "type": "http",
+      "url": "https://getgutlog.com/api/mcp/catalog",
+      "headers": {
+        "X-Gutlog-Integration": "plugin"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+interface:
+  display_name: "Gutlog: review diary"
+  short_description: "Summaries, goals, audits and exports of your food diary"
+  default_prompt: "Use $review-diary to summarize my last week against my goals and audit anything missing."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "gutlog"
+      description: "Gutlog hosted MCP server"
+      transport: "streamable_http"
+      url: "https://getgutlog.com/api/mcp"
+policy:
+  allow_implicit_invocation: true

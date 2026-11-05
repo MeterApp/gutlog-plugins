@@ -1,0 +1,13 @@
+interface:
+  display_name: "Gutlog: elimination diet"
+  short_description: "Low-FODMAP and single-food tests with a safety screen"
+  default_prompt: "Use $elimination-diet to see whether a low-FODMAP trial is right for me and how it would work."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "gutlog"
+      description: "Gutlog hosted MCP server"
+      transport: "streamable_http"
+      url: "https://getgutlog.com/api/mcp"
+policy:
+  allow_implicit_invocation: true

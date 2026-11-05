@@ -1,0 +1,13 @@
+interface:
+  display_name: "Gutlog: gut check"
+  short_description: "Log how your gut feels and look for patterns"
+  default_prompt: "Use $gut-check to log that I'm bloated tonight and look at what I ate before."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "gutlog"
+      description: "Gutlog hosted MCP server"
+      transport: "streamable_http"
+      url: "https://getgutlog.com/api/mcp"
+policy:
+  allow_implicit_invocation: true

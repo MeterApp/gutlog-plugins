@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "gutlog",
+  "version": "0.1.0",
+  "description": "Gutlog by Meter: the food and gut database your AI assistant writes to. Log meals from a photo or a sentence with calories, macros, nutrients and ingredients (each with a confidence you can fix), scan barcodes, read your day, and check plans, from the conversation, the CLI or CI.",
+  "author": {
+    "name": "Meter",
+    "email": "jonathan@getgutlog.com",
+    "url": "https://meterapp.co"
+  },
+  "homepage": "https://getgutlog.com/docs?ref=plugin",
+  "repository": "https://github.com/MeterApp/gutlog-plugins",
+  "license": "MIT",
+  "keywords": [
+    "food-diary",
+    "nutrition",
+    "calorie-tracker",
+    "barcode",
+    "ibs",
+    "low-fodmap",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Gutlog",
+        "category": "Developer Tools",
+        "privacyPolicyURL": "https://getgutlog.com/privacy?ref=plugin",
+        "termsOfServiceURL": "https://getgutlog.com/terms?ref=plugin"
+      }
+    }
+  }
+}

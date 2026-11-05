@@ -1,0 +1,13 @@
+interface:
+  display_name: "Gutlog: log food"
+  short_description: "Log a meal from a photo, a sentence or a barcode"
+  default_prompt: "Use $log-food to log this lunch photo and ask me about anything you're unsure of."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "gutlog"
+      description: "Gutlog hosted MCP server"
+      transport: "streamable_http"
+      url: "https://getgutlog.com/api/mcp"
+policy:
+  allow_implicit_invocation: true
