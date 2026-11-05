@@ -1,9 +1,9 @@
 {
   "name": "gutlog",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Gutlog by Meter: the food and gut database your AI assistant writes to. Log meals from a photo or a sentence with calories, macros, nutrients and ingredients (each with a confidence you can fix), scan barcodes, read your day, and check plans, from the conversation, the CLI or CI.",
   "author": {
-    "name": "Meter",
+    "name": "Gutlog by Meter",
     "email": "jonathan@getgutlog.com",
     "url": "https://meterapp.co"
   },
@@ -25,7 +25,7 @@
     "displayName": "Gutlog",
     "shortDescription": "Log meals and read your food diary from your agent",
     "longDescription": "Log what you eat from a photo or a sentence, with calories, macros, nutrients and ingredients that each carry a confidence you can fix in one sentence. Scan barcodes, read your day, and see your plan and usage, from chat, the CLI or CI.",
-    "developerName": "Meter",
+    "developerName": "Gutlog by Meter",
     "category": "Productivity",
     "capabilities": [
       "Read",

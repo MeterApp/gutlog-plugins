@@ -2,14 +2,17 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "gutlog",
   "displayName": "Gutlog",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Gutlog by Meter: the food and gut database your AI assistant writes to. Log meals from a photo or a sentence with calories, macros, nutrients and ingredients (each with a confidence you can fix), scan barcodes, read your day, and check plans, from the conversation, the CLI or CI.",
   "author": {
-    "name": "Meter",
+    "name": "Gutlog by Meter",
     "email": "jonathan@getgutlog.com",
     "url": "https://meterapp.co"
   },
   "homepage": "https://getgutlog.com/docs?ref=plugin",
+  "privacyPolicyUrl": "https://getgutlog.com/privacy?ref=plugin",
+  "termsOfServiceUrl": "https://getgutlog.com/terms?ref=plugin",
+  "supportUrl": "https://getgutlog.com/docs?ref=plugin",
   "repository": "https://github.com/MeterApp/gutlog-plugins",
   "license": "MIT",
   "keywords": [

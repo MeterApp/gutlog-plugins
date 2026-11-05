@@ -31,3 +31,5 @@ secret in that environment; the plugin never uses it.
 Or connect any MCP client to `https://getgutlog.com/api/mcp` (setup for every client:
 https://getgutlog.com/setup?ref=plugin). This directory is published from the Gutlog source repository;
 open issues at https://getgutlog.com/feedback?ref=plugin.
+
+Privacy: [Privacy policy](https://getgutlog.com/privacy?ref=plugin) · Terms: [Terms of service](https://getgutlog.com/terms?ref=plugin) · Support: [Docs](https://getgutlog.com/docs?ref=plugin)

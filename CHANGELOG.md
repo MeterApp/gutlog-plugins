@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.1 (2026-11-05)
+
+- The Claude Code manifest declares its listing links again:
+  `privacyPolicyUrl`, `termsOfServiceUrl` and `supportUrl`. The plugin
+  directory reads them, and requires a privacy policy for a plugin that
+  connects to a remote MCP server. The README links to the privacy policy and
+  terms too.
+- The publisher is "Gutlog by Meter" (author and marketplace owner), so the
+  listing names the product rather than the bare word "Meter".
+
 ## 0.2.0 (2026-11-05)
 
 - Sign-in is OAuth only: install the plugin, then use any tool and your agent

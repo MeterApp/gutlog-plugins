@@ -2,7 +2,7 @@
   "$schema": "https://code.claude.com/schemas/marketplace.json",
   "name": "gutlog",
   "owner": {
-    "name": "Meter",
+    "name": "Gutlog by Meter",
     "email": "jonathan@getgutlog.com",
     "url": "https://meterapp.co"
   },
