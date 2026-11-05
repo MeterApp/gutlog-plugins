@@ -11,7 +11,7 @@
     {
       "name": "gutlog",
       "source": "./",
-      "description": "Three skills plus the hosted Gutlog MCP servers: log meals and barcodes, read your day, connect the CLI, MCP or an API key, and read pricing and usage.",
+      "description": "Nine skills plus the hosted Gutlog MCP servers: log meals, photos and barcodes, read your diary, gut check-ins and elimination programs, clean-ingredient checks, the pantry, setup and pricing. Signs in with your browser.",
       "category": "productivity"
     }
   ]

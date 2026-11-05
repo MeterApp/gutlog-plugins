@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "gutlog",
   "displayName": "Gutlog",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Gutlog by Meter: the food and gut database your AI assistant writes to. Log meals from a photo or a sentence with calories, macros, nutrients and ingredients (each with a confidence you can fix), scan barcodes, read your day, and check plans, from the conversation, the CLI or CI.",
   "author": {
     "name": "Meter",
@@ -22,25 +22,12 @@
     "mcp"
   ],
   "icon": "./.claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://getgutlog.com/privacy?ref=plugin",
-  "termsOfServiceUrl": "https://getgutlog.com/terms?ref=plugin",
-  "supportUrl": "https://getgutlog.com/docs?ref=plugin",
-  "userConfig": {
-    "api_key": {
-      "type": "string",
-      "title": "Gutlog API key (optional)",
-      "description": "Leave empty to sign in with your browser (/mcp). Or paste a gutlog_… key from https://getgutlog.com/dashboard/settings?ref=plugin for a machine without a browser: Claude Code keeps it in your system's secure credential store and sends it only to the Gutlog MCP server, in the X-Api-Key header.",
-      "sensitive": true,
-      "default": ""
-    }
-  },
   "mcpServers": {
     "gutlog": {
       "type": "http",
       "url": "https://getgutlog.com/api/mcp",
       "headers": {
-        "X-Gutlog-Integration": "plugin",
-        "X-Api-Key": "${user_config.api_key}"
+        "X-Gutlog-Integration": "plugin"
       }
     },
     "gutlog-catalog": {

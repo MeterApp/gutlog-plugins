@@ -1,6 +1,6 @@
 {
   "name": "gutlog",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Gutlog by Meter: the food and gut database your AI assistant writes to. Log meals from a photo or a sentence with calories, macros, nutrients and ingredients (each with a confidence you can fix), scan barcodes, read your day, and check plans, from the conversation, the CLI or CI.",
   "author": {
     "name": "Meter",

@@ -9,16 +9,26 @@ The quickest path for a person: open https://getgutlog.com/setup?ref=setup-plugi
 assistant "Set up Gutlog for me: read https://getgutlog.com/setup.md?ref=setup-plugin and follow
 it." That page has the clicks and deep links for every client.
 
+## The plugin
+
+Install the plugin, then use any tool: your agent opens a Gutlog sign-in in the
+browser and keeps the connection. In Claude Code, `/mcp` shows the connection
+and signs in again if needed. Codex, Cursor and the Claude and ChatGPT apps sign
+in the same way from their connector settings. For scripts, CI and the SDK,
+create an API key in the dashboard and keep it as a secret in that environment;
+the plugin never uses it.
+
 ## The CLI
 
 ```bash
 npx @meterapp/gutlog login
 ```
 
-opens the browser, the person approves the code, and the CLI saves an API key
-for the organization they choose. On a machine without a browser:
-`npx @meterapp/gutlog login --no-browser` prints the code and the link. In CI,
-set `GUTLOG_API_KEY` from a repository secret instead.
+opens the browser, the person approves the code, and the CLI keeps a key for
+the organization they choose. On a machine without a browser:
+`npx @meterapp/gutlog login --no-browser` prints the code and the link. For CI,
+create a key in the dashboard and keep it as a repository secret; how the CLI
+and the SDK pick it up is in https://getgutlog.com/docs?ref=setup-plugin.
 
 ## The MCP server
 
@@ -29,9 +39,11 @@ Claude Code:
 claude mcp add --transport http gutlog https://getgutlog.com/api/mcp
 ```
 
-then `/mcp` to sign in. A client that only speaks stdio can use the CLI's
-bridge: `npx @meterapp/gutlog mcp`. Prices and plans need no sign-in at
-`https://getgutlog.com/api/mcp/catalog`.
+then `/mcp` to sign in. On a machine without a browser, the person adds the
+server themselves with their own key, as shown in
+https://getgutlog.com/docs/mcp?ref=setup-plugin#claude-code. A client that only
+speaks stdio can use the CLI's bridge: `npx @meterapp/gutlog mcp`. Prices and
+plans need no sign-in at `https://getgutlog.com/api/mcp/catalog`.
 
 ## API keys
 

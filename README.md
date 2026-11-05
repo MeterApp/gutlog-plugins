@@ -11,7 +11,7 @@ agents, by Meter: the hosted Gutlog MCP servers and nine skills.
 | `gut-check` | symptom check-ins and patterns (hypotheses, never diagnoses) |
 | `elimination-diet` | low-FODMAP and single-food tests, safety screen first |
 | `clean-check` | clean-ingredient verdicts with evidence levels, organic advice, swaps |
-| `gutlog-setup` | connect an assistant, the CLI or an API key |
+| `gutlog-setup` | connect an assistant or the CLI, and keys for scripts and CI |
 | `gutlog-billing` | plans, daily analyses, upgrades |
 | `pantry` | the kitchen inventory: what is on hand and where, what expires, the shopping list |
 
@@ -21,6 +21,12 @@ Install in Claude Code:
 /plugin marketplace add MeterApp/gutlog-plugins
 /plugin install gutlog@gutlog
 ```
+
+Install the plugin, then use any tool: your agent opens a Gutlog sign-in in the browser and
+keeps the connection. In Claude Code, `/mcp` shows the connection and signs in again if needed.
+Codex, Cursor and the Claude and ChatGPT apps sign in the same way from their connector
+settings. For scripts, CI and the SDK, create an API key in the dashboard and keep it as a
+secret in that environment; the plugin never uses it.
 
 Or connect any MCP client to `https://getgutlog.com/api/mcp` (setup for every client:
 https://getgutlog.com/setup?ref=plugin). This directory is published from the Gutlog source repository;
