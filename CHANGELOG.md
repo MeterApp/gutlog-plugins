@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.2 (2026-11-08)
+
+- The plugin ships only file types the Claude plugin directory accepts from organizations that are not Verified: the SVG logo is gone, and Codex and Cursor show the same PNG logo as the directory listing. No skill, tool or sign-in change.
+
 ## 0.2.1 (2026-11-05)
 
 - The Claude Code manifest declares its listing links again:
