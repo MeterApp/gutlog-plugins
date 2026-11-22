@@ -11,7 +11,7 @@
     {
       "name": "gutlog",
       "source": "./",
-      "description": "Nine skills plus the hosted Gutlog MCP servers: log meals, photos and barcodes, read your diary, gut check-ins and elimination programs, clean-ingredient checks, the pantry, setup and pricing. Signs in with your browser.",
+      "description": "Ten skills plus the hosted Gutlog MCP servers: log meals, photos and barcodes, read your diary, gut check-ins and elimination programs, clean-ingredient checks, the pantry, versioned recipes, setup and pricing. Signs in with your browser.",
       "category": "productivity"
     }
   ]

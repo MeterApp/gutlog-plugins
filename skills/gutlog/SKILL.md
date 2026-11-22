@@ -1,6 +1,6 @@
 ---
 name: gutlog
-description: What Gutlog is and which Gutlog skill to use — the food and gut database the person's own assistant writes to — plus quick reads of today (get_day) and the setup checklist (get_onboarding). Use for "what is Gutlog", "what can you do with my food diary", "what did I eat today", "what should I set up next"; for logging use log-food, for summaries, audits and exports review-diary, for symptoms gut-check, for elimination programs elimination-diet, for clean verdicts clean-check, for the kitchen pantry, for connecting gutlog-setup and for plans gutlog-billing.
+description: What Gutlog is and which Gutlog skill to use — the food and gut database the person's own assistant writes to — plus quick reads of today (get_day) and the setup checklist (get_onboarding). Use for "what is Gutlog", "what can you do with my food diary", "what did I eat today", "what should I set up next"; for logging use log-food, for summaries, audits and exports review-diary, for symptoms gut-check, for elimination programs elimination-diet, for clean verdicts clean-check, for the kitchen pantry, for saved recipes and their versions recipes, for connecting gutlog-setup and for plans gutlog-billing.
 ---
 
 # Gutlog: the food diary your assistant writes to
@@ -13,6 +13,7 @@ description: What Gutlog is and which Gutlog skill to use — the food and gut d
 | Low-FODMAP or a single-food test | elimination-diet |
 | Clean verdicts, organic or not, swaps | clean-check |
 | The kitchen inventory and shopping list | pantry |
+| Save, change, compare, rate or share a recipe | recipes |
 | Connect MCP, the CLI or an API key | gutlog-setup |
 | Plans, usage, checkout | gutlog-billing |
 

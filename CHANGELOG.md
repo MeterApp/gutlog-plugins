@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0 (2026-11-19)
+
+- New skill `recipes`: work a recipe out from what is in the pantry and save
+  it, save each tweak as a new version, record how every cook turned out,
+  compare versions and promote the better one, add notes and photos (to the
+  recipe, a version or a single step), and share a recipe by link. Twenty-one
+  new tools, free on every plan.
+
 ## 0.2.2 (2026-11-08)
 
 - The plugin ships only file types the Claude plugin directory accepts from organizations that are not Verified: the SVG logo is gone, and Codex and Cursor show the same PNG logo as the directory listing. No skill, tool or sign-in change.

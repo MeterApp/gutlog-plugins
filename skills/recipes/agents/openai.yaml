@@ -1,0 +1,13 @@
+interface:
+  display_name: "Gutlog Recipes"
+  short_description: "Save, version and improve your own recipes"
+  default_prompt: "Use $recipes to turn what's in my pantry into a dinner recipe and save it."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "gutlog"
+      description: "Gutlog hosted MCP server"
+      transport: "streamable_http"
+      url: "https://getgutlog.com/api/mcp"
+policy:
+  allow_implicit_invocation: true

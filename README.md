@@ -14,6 +14,7 @@ agents, by Meter: the hosted Gutlog MCP servers and nine skills.
 | `gutlog-setup` | connect an assistant or the CLI, and keys for scripts and CI |
 | `gutlog-billing` | plans, daily analyses, upgrades |
 | `pantry` | the kitchen inventory: what is on hand and where, what expires, the shopping list |
+| `recipes` | your own recipes: saved, versioned, rated, compared, shared by link |
 
 Install in Claude Code:
 
